@@ -36,6 +36,10 @@ const EditionsDesktop = () => {
         } else if (currentSlide === 3) {
             cardContainer.current.style.marginLeft = "0";
             icon1.current.style.opacity = "1";
+            icon2.current.style.opacity = "0";
+            small.current.style.height = "36.875rem";
+            small.current.style.marginBottom = "2.3rem";
+            small.current.style.transition = "0.8s";
             setCurrentSlide(0);
         }
     };

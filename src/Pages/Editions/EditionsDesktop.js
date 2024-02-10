@@ -40,6 +40,42 @@ const EditionsDesktop = () => {
       setCurrentSlide(0);
     }
   };
+    const cardContainer = useRef();
+    const thirdcard = useRef();
+    const icon1 = useRef();
+    const icon2 = useRef();
+    const small = useRef();
+    // const smallHeight = useRef(0);
+    const [currentSlide, setCurrentSlide] = useState(0);
+    const handleSlide = () => {
+        if (currentSlide === 0) {
+            cardContainer.current.style.marginLeft = "-20%";
+            small.current.style.height = "25.875rem";
+            small.current.style.marginBottom = "8.9rem";
+            small.current.style.transition = "0.8s";
+            // icon1.current.style.marginLeft = "-2rem";
+            icon2.current.style.opacity = "1";
+            setCurrentSlide(1);
+        } else if (currentSlide === 1) {
+            cardContainer.current.style.marginLeft = "-40%";
+            // icon1.current.style.marginLeft = "-5rem";
+            icon1.current.style.transition = "0.4s";
+            setCurrentSlide(2);
+        } else if (currentSlide === 2) {
+            cardContainer.current.style.marginLeft = "-60%";
+            icon1.current.style.opacity = "0";
+            cardContainer.current.style.transition = "0.8s";
+            setCurrentSlide(3);
+        } else if (currentSlide === 3) {
+            cardContainer.current.style.marginLeft = "0";
+            icon1.current.style.opacity = "1";
+            icon2.current.style.opacity = "0";
+            small.current.style.height = "36.875rem";
+            small.current.style.marginBottom = "2.3rem";
+            small.current.style.transition = "0.8s";
+            setCurrentSlide(0);
+        }
+    };
 
   const reverseSlide = () => {
     if (currentSlide === 1) {

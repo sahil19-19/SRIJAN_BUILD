@@ -10,7 +10,7 @@ const Dropdown = (props) => {
     return (
       <>
         <div className="dropdown">
-          <select onChange={dropdownChangeHandler} >
+          <select className="dropSelect" onChange={dropdownChangeHandler} >
             <option value="3">2023</option>
             <option value="2">2022</option>
             <option value="1">2021</option>

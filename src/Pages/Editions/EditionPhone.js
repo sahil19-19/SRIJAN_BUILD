@@ -7,7 +7,9 @@ import image2021 from "../../Assets/images/2020-2021.png";
 import image2018 from "../../Assets/images/2016-2017.png";
 import image2017 from "../../Assets/images/2017-2018.png";
 import image2019 from "../../Assets/images/2018-2019.png";
+import image2023 from "../../Assets/images/SRIJAN 2022-23.png";
 import Navbar from "../../components/NewNavbar.js/NewNavbar";
+import { NavLink } from "react-router-dom";
 
 import Carousel from "react-elastic-carousel";
 const EditionPhone = () => {
@@ -16,10 +18,10 @@ const EditionPhone = () => {
       <Navbar />
       <section className="phone-edition">
         <div className="current-edition">
-          <div className="edition-text">SRIJAN 2021-22</div>
-          <a href="#">
+          <div className="edition-text">SRIJAN 2022-23</div>
+          <a href="https://drive.google.com/file/d/1vXwg9dcih1CIFUrbhVEI2yPelGecIgIf/view?usp=drive_link">
             <img className="edition-img" 
-            src={image2022} 
+            src={image2023} 
             alt="edition"
             ></img>
           </a>
@@ -68,6 +70,11 @@ const EditionPhone = () => {
             ></img>
           </a>
         </Carousel>
+        <div className="block1">
+          <NavLink to="/editions/all">
+            <h3>View all</h3>
+          </NavLink>
+        </div>
       </section>
     </>
   );

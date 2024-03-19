@@ -9,11 +9,17 @@ import image2015 from "../../Assets/images/2015-2016.png";
 import image2016 from "../../Assets/images/2016-2017.png";
 import image2017 from "../../Assets/images/2017-2018.png";
 import image2018 from "../../Assets/images/2018-2019.png";
+import image2023 from "../../Assets/images/SRIJAN 2022-23.png";
 import first from "../../Assets/images/first.jpg";
 import second from "../../Assets/images/second.jpg";
 
 const EditionsCard = () => {
   const data = [
+    {
+      year: "2022-2023",
+      imageSrc: image2023,
+      link: "https://drive.google.com/file/d/1vXwg9dcih1CIFUrbhVEI2yPelGecIgIf/view?usp=drive_link",
+    },
     {
       year: "2021-2022",
       imageSrc: second,

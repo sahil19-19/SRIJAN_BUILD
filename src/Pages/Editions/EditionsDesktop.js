@@ -3,6 +3,7 @@ import React, { useRef, useState } from "react";
 import first from "./../../Assets/images/first.jpg";
 import second from "./../../Assets/images/second.jpg";
 import image2021 from "../../Assets/images/2020-2021.png";
+import latest from "../../Assets/images/SRIJAN 2022-23.png";
 import "./../../Assets/css/Edition.css";
 import Navbar from "../../components/NewNavbar.js/NewNavbar";
 import { NavLink } from "react-router-dom";
@@ -102,7 +103,11 @@ const EditionsDesktop = () => {
           <div className="cards card-text">
             <h1>SRIJAN 2022-23</h1>
             <div className="block">
-              <h3>Read now</h3>
+              <h3>
+                <a href="https://drive.google.com/file/d/1vXwg9dcih1CIFUrbhVEI2yPelGecIgIf/view?usp=drive_link">
+                Read now
+                </a>
+              </h3>
               <div className="block">
                 <NavLink to="/editions/all">
                   <h3>View all</h3>
@@ -111,7 +116,7 @@ const EditionsDesktop = () => {
             </div>
           </div>
           <div className="cards" id="first" ref={small}>
-            <img className="firstimg" src={first} alt="first edition" />
+            <img className="firstimg" src={latest} alt="first edition" />
           </div>
           <div className="cards" id="second">
             <img src={second} alt="second editon" />

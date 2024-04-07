@@ -49,9 +49,6 @@ const HeroCards = (props) => {
                                         <hr className='text_divider' /> 
                                         <h3>{hero.designation}</h3>
                                     </div>
-                                    
-
-
                                 </div>
 
                                 <div className='socialMediaIcons'>

@@ -19,7 +19,7 @@ const EditionPhone = () => {
       <section className="phone-edition">
         <div className="current-edition">
           <div className="edition-text">SRIJAN 2022-23</div>
-          <a href="https://drive.google.com/file/d/1vXwg9dcih1CIFUrbhVEI2yPelGecIgIf/view?usp=drive_link">
+          <a href="https://drive.google.com/file/d/1vXwg9dcih1CIFUrbhVEI2yPelGecIgIf/view?usp=drive_link" target="_blank">
             <img className="edition-img" 
             src={image2023} 
             alt="edition"
@@ -27,42 +27,42 @@ const EditionPhone = () => {
           </a>
         </div>
         <Carousel itemsToShow={3}>
-          <a href="https://drive.google.com/file/d/1lqy5vTkv4erXBLndVKP5PuBxHZ-To3NR/view?usp=sharing>">
+          <a href="https://drive.google.com/file/d/1lqy5vTkv4erXBLndVKP5PuBxHZ-To3NR/view?usp=sharing>" target="_blank">
             <img
               className="carousel-components"
               src={image2022}
               alt="edition"
             ></img>
           </a>
-          <a href="https://drive.google.com/file/d/1qjMCAEk75KmO9mumi2fra55Ua3XB6qpt/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1qjMCAEk75KmO9mumi2fra55Ua3XB6qpt/view?usp=sharing" target="_blank">
             <img
               className="carousel-components"
               src={image2021}
               alt="edition"
             ></img>
           </a>
-          <a href="https://drive.google.com/file/d/1lmBbYQvnFDeM7KNqZ6L0J7RtadBBle4E/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1lmBbYQvnFDeM7KNqZ6L0J7RtadBBle4E/view?usp=sharing" target="_blank">
             <img
               className="carousel-components"
               src={image2020}
               alt="edition"
             ></img>
           </a>
-          <a href="https://drive.google.com/file/d/1SC6heWxbESkYuql8VBAyVUXlWZ8crl08/view?usp=drive_link">
+          <a href="https://drive.google.com/file/d/1SC6heWxbESkYuql8VBAyVUXlWZ8crl08/view?usp=drive_link" target="_blank">
             <img
               className="carousel-components"
               src={image2019}
               alt="edition"
             ></img>
           </a>
-          <a href="https://drive.google.com/file/d/1yIWkM0lmwmqvQ41xUenTqAfrXdhhb9Nr/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1yIWkM0lmwmqvQ41xUenTqAfrXdhhb9Nr/view?usp=sharing" target="_blank">
             <img
               className="carousel-components"
               src={image2018}
               alt="edition"
             ></img>
           </a>
-          <a href="https://drive.google.com/file/d/1rag_ijpEnO93SxTg1v_vIi8VYBsSo-nC/view?usp=drive_link">
+          <a href="https://drive.google.com/file/d/1rag_ijpEnO93SxTg1v_vIi8VYBsSo-nC/view?usp=drive_link" target="_blank">
             <img
               className="carousel-components"
               src={image2017}

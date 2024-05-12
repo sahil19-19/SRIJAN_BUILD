@@ -71,15 +71,18 @@ body {
 }
 
 .text-content {
-  padding: 0 4rem;
+  padding: 0 19rem;
 }
 
 .text-content h2 {
   font-size: 6rem;
+  color: gray;
+  padding-top: 5rem;
 }
 
 .text-content p {
   font-size: 2rem;
+  color: gray;
 }
 
 .background-svg {
@@ -90,6 +93,11 @@ body {
   z-index: 1;
   position: absolute;
   margin-top: 2.5rem;
+}
+@media (max-width: 700px) {
+  .text-content{
+    padding:  0 4rem;
+  }
 }
 
 /*animated scroll arrow animation*/

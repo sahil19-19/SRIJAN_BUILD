@@ -82,7 +82,7 @@ const EditionsCard = () => {
             </div>
             <h1>SRIJAN {data.year}</h1>
             <Button className="button--big">
-              <a style={{ textDecoration: "none" }} href={data.link}>
+              <a style={{ textDecoration: "none", color:"black" }} href={data.link}>
                 Read Now
               </a>
             </Button>

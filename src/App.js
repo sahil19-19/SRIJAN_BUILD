@@ -7,25 +7,25 @@ import Contributions from "./Pages/Contributions/Contributions";
 import EditionsCardPage from "./Pages/Editions/EditionsCardPage";
 import Gallery from "./Pages/Gallery/Gallery";
 import Edition from "./Pages/Editions/Edition";
-import Loader from "./Pages/Homepage/loader";
+// import Loader from "./Pages/Homepage/loader";
 import "./App.css";
 
 function App() {
-    const [loading, setLoading] = useState(true);
+    // const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setLoading(false);
-        }, 2000); // Adjust the timeout duration as needed
+    // useEffect(() => {
+    //     const timer = setTimeout(() => {
+    //         setLoading(false);
+    //     }, 2000); // Adjust the timeout duration as needed
 
-        return () => clearTimeout(timer);
-    }, []);
+    //     return () => clearTimeout(timer);
+    // }, []);
 
     return (
         <Router>
-            {loading ? (
-                <Loader />
-            ) : (
+            // {loading ? (
+            //     <Loader />
+            // ) : (
                 <Routes>
                     <Route path="/" element={<Home />}></Route>
 {/* {!isPhone && <Route path="/editions" element={<EditionsDesktop/>}></Route>}
@@ -42,7 +42,7 @@ function App() {
                     <Route path="/team" element={<Teampage />}></Route>
                     <Route path="/gallery" element={<Gallery />}></Route>
                 </Routes>
-            )}
+            // )}
         </Router>
     );
 }

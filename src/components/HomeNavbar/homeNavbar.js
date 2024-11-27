@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 const HomeNavbar = () => {
 
+
   const moved = () => {
     const btn = document.querySelector('.btn');
     const btn2 = document.querySelector('.btn2');
@@ -14,17 +15,25 @@ const HomeNavbar = () => {
   };
 
   const removed = () => {
-    const btn2 = document.querySelector('.btn2');
     const btn = document.querySelector('.btn');
+    const btn2 = document.querySelector('.btn2');
     const button = document.querySelector('.navbar-container ul');
     button.classList.remove('bar');
     button.classList.add('cross');
     btn.classList.remove('none');
     btn2.classList.add('none');
   }
+
+  document.addEventListener(
+    'keydown' , (event) =>{
+      if(event.key === 'Escape' &&  document.querySelector('.btn').classList.contains('none')){
+        removed();
+      }
+    }
+  )
+
   return (
     <div className="H-navbar">
-
       <nav className="navbar-container">
         <div className='react-svg'>
           <button onClick={moved} className="btn"><FaBars /></button>

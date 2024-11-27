@@ -1,5 +1,4 @@
 import '../../Assets/css/Homepage.css';
-// import bgImg2 from '../../Assets/images/background.png'
 
 import bgImg from '../../Assets/images/Group 4.png';
 import logo from '../../Assets/images/srijann logo 1.png';
@@ -10,7 +9,7 @@ const Home = () => {
     return (
         <>
             <div className='home'>
-                <HomeNavbar />
+                <HomeNavbar/>
                 <div className='logo'>
                     <img src={logo} alt='logo.png' />
                 </div>
@@ -21,6 +20,7 @@ const Home = () => {
             </div>
 
             <div className='content'>
+                {/* <img src={bgImg} className='content-bg' alt='background.png' /> */}
                 <div className='text-content'>
                     <h2>about us</h2>
                     <p>SRIJAN is the official institute magazine of NIT Hamirpur, and as a team, we stand for freedom of self-expression, creativity, and critical thinking. All these years, we’ve worked to build an environment that is progressive and comprehensive. We have voiced our opinions on matters that are often hushed up and provided a safe space for people to be themselves without being judged or discouraged. We have actively called out draconian cultures which can be discriminatory, disrespectful or simply illogical and have always strived to become more rational, unbiased and inclusive. SRIJAN lives by its ideals and will surely live up to the expectations of its readers.

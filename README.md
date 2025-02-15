@@ -1,6 +1,6 @@
 # SRIJAN_BUILD
 
-This is a test repository for SRIJAN website
+This is a test repository for SRIJAN website.  
 Access the website at the following link
 
 ```
